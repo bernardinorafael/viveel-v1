@@ -1,0 +1,37 @@
+.ChainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 680px;
+
+  h1 {
+    color: var(--white200);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    div {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      font-size: 24px;
+      margin-bottom: 70px;
+      text-align: right;
+    }
+  }
+
+  footer {
+    font-family: var(--fontSecondary);
+    font-size: 14px;
+  }
+}

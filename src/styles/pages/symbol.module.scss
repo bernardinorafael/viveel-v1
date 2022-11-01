@@ -1,0 +1,41 @@
+.SymbolContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 680px;
+
+  div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    h1 {
+      color: var(--white200);
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    input {
+      background: var(--white700);
+      border-radius: 999px;
+      border: 1px solid var(--white100);
+      color: var(--white200);
+      height: 40px;
+      outline: none;
+      padding: 0 16px;
+      width: 100%;
+    }
+
+    a {
+      align-self: flex-end;
+      font-size: 24px;
+      transform: translateY(-30px);
+    }
+  }
+
+  footer {
+    font-family: var(--fontSecondary);
+    font-size: 14px;
+  }
+}

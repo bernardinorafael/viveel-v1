@@ -1,0 +1,78 @@
+.ResumeContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+
+  h1 {
+    color: var(--white200);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  section {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+			margin-top: 20px;
+      align-self: flex-end;
+      font-size: 24px;
+    }
+  }
+}
+
+.ItemsContainer {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+
+  span {
+    color: var(--white100);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  > div {
+    background: var(--gray800);
+    border-radius: 999px;
+    min-height: 44px;
+    padding: 10px 20px 10px 20px;
+    width: 325px;
+  }
+}
+
+.ItemContainerVariant {
+  align-items: stretch;
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+
+  span {
+    color: var(--white100);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  > div {
+    align-items: center;
+    background: var(--gray800);
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 20px 10px 20px;
+    width: 325px;
+  }
+}
