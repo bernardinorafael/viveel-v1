@@ -4,12 +4,12 @@
 
 ```bash
 # Para clonar este repositório:
-$ git clone https://github.com/bernardinorafael/viveel-challenge.git
+$ git clone https://github.com/bernardinorafael/viveel-v1.git
 ```
 
 ```bash
 # Acesse a pasta do projeto no seu terminal
-$ cd viveel-challenge
+$ cd viveel-v1
 ```
 
 ```bash
